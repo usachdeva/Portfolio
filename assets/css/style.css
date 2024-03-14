@@ -15,16 +15,18 @@ body {
 /* header of the file */
 header {
   margin: 10px;
+  height: 10rem;
 }
 
 header #name {
   display: inline;
   float: left;
+  margin: 3.5rem;
 }
 
 header ul {
   float: inline-end;
-  margin: 1.5rem;
+  margin: 3.5rem;
 }
 
 header ul li {
@@ -192,11 +194,7 @@ footer {
   #subtitle section {
     position: relative;
     top: 50%;
-    left: 50%;
-  }
-
-  .content h3 strong {
-    color: red;
+    left: 40%;
   }
 
   .column1 {
