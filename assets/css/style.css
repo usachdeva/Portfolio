@@ -137,8 +137,8 @@ h3 {
   background-image: url("../images/task-1.jpg");
 }
 
-.task .topic-heading,
-.column .topic-heading {
+.task a,
+.column a {
   display: inline-block;
   margin: 15rem auto 2rem 0rem;
   position: relative;
