@@ -4,7 +4,9 @@ Second Challenge for the BootCamp 2024 UoFT
 
 ## User's Story
 
+```
 Create a Portfolio page for the developer to show the progress and the projects made during this course.
+```
 
 ## Acceptance Criteria
 
