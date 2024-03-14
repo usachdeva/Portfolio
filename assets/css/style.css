@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+/* header of the file */
+header {
+  margin: 10px;
+}
+
+header #name {
+  display: inline;
+  float: left;
+}
+
+header ul {
+  float: inline-end;
+  margin: 1.5rem;
+}
+
+header ul li {
+  display: inline;
+  padding-right: 1rem;
+  font-size: 2rem;
+}
+
+header ul a,
+.content ul a {
+  color: black;
+}
+
+/* main */
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+#subtitle {
+  display: flex;
+  background-image: url("../images/subtitle.jpg");
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#subtitle section {
+  position: relative;
+  top: 50%;
+  left: 90%;
+}
+
+.main-content {
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  padding: 0.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 1rem;
+  margin: 0.25rem;
+  width: 100%;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+.content h2 {
+  font-size: 3rem;
+}
+
+.main-content .content h2 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.main-content .content p {
+  font-size: 2rem;
+  margin: auto;
+  padding: 8px;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+/* work experience */
+#row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#row .column {
+  flex: 1 0 100%;
+  /* when the screen resizes, make it so our columns don't jump in size */
+  transition: flex-basis 500ms linear;
+  margin-bottom: 1.5rem;
+  border: 2px solid black;
+  background-image: url("../images/mern.jpg");
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#row .task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  width: 40%;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-image: url("../images/task-1.jpg");
+}
+
+.task .topic-heading,
+.column .topic-heading {
+  display: inline-block;
+  margin: 15rem auto 2rem 0rem;
+  position: relative;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+/* hovering */
+.column:hover,
+.task:hover {
+  box-shadow: inset 0px 0px 100rem cadetblue, 0 0 4rem cadetblue;
+}
+
+header ul a:hover,
+.content ul a:hover {
+  color: blueviolet;
+  font-size: 2.5rem;
+}
+
+/* contact me */
+
+.content ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+/* footer */
+footer {
+  border-top: 1px solid black;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+/* mobile version */
+@media screen and (max-width: 768px) {
+  header #name,
+  header ul {
+    float: none;
+    text-align: center;
+    margin: auto;
+  }
+
+  #subtitle section {
+    position: relative;
+    top: 50%;
+    left: 70%;
+  }
+
+  .content h3 li {
+    text-align: justify;
+  }
+
+  .task,
+  #mern {
+    margin: 1.5rem;
+    flex: 0 0 100%;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+}
