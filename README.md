@@ -19,6 +19,8 @@ When the page is resize
 Then contents should be clearly visible
 WHEN click on the link to the section about their work
 THEN the UI scrolls to their corresponding sections
+When clicked on the projects
+Then new webpages will open
 ```
 
 ## Links

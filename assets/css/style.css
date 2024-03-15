@@ -102,11 +102,21 @@ h3 {
 }
 
 .main-content .content p {
+  display: inline-block;
   font-size: 2rem;
-  margin: auto;
   padding: 8px;
   text-align: justify;
   border-radius: 10px;
+}
+
+/* avatar */
+.content #avatar {
+  position: relative;
+  left: 43%;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid cadetblue;
 }
 
 /* work experience */
@@ -169,7 +179,7 @@ header ul a:hover,
   display: inline-block;
   padding: 10px;
   position: relative;
-  left: 38%;
+  left: 35%;
 }
 
 /* footer */
@@ -188,6 +198,16 @@ footer {
     margin: auto;
   }
 
+  .content #avatar {
+    position: relative;
+    left: 30%;
+  }
+
+  .content ul li {
+    position: relative;
+    left: 15%;
+  }
+
   .column1 {
     margin: 1rem;
   }
@@ -203,5 +223,17 @@ footer {
     flex: 1 0 100%;
     justify-content: flex-start;
     max-width: 100%;
+  }
+}
+
+/* another size */
+@media screen and (max-width: 996px) {
+  .content ul li {
+    position: relative;
+    left: 25%;
+  }
+  .content #avatar {
+    position: relative;
+    left: 38%;
   }
 }
