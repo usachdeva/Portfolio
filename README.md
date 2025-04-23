@@ -16,7 +16,7 @@ Want to connect or collaborate?
 
 ---
 
-## Links
+## 🌐 Links
 
 -   GitHub: [https://github.com/usachdeva/Portfolio]
 
