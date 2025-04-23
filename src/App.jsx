@@ -1,16 +1,5 @@
-import "./App.css";
-import Navbar from "./components/navbar";
-import AboutMe from "./components/aboutMe";
-import MiniProjects from "./components/miniProjects";
+import PortfolioContainer from "./components/portfolioContainer";
 
-function App() {
-    return (
-        <>
-            <Navbar />
-            <AboutMe />
-            <MiniProjects />
-        </>
-    );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
