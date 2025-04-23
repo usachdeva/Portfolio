@@ -1,7 +1,7 @@
 import { useState } from "react";
 import NavTabs from "./navbar";
 import AboutMe from "./aboutMe";
-import Resume from "./pages/Resume";
+import Resume from "./pages/resume";
 import FeedBack from "./pages/feedBack";
 import Footer from "./footer";
 
