@@ -6,4 +6,4 @@ This is my portfolio, built to showcase my development skills and hands-on proje
 
 ## Links
 
--   -   GitHub: [https://github.com/usachdeva/Portfolio]
+-   GitHub: [https://github.com/usachdeva/Portfolio]
